@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.cv-container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.left-column {
+    width: 35%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+.left-column h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.left-column h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 0;
+    color: #ecf0f1;
+}
+
+.right-column {
+    width: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.language {
+    margin-bottom: 15px;
+}
+
+.language p {
+    margin-bottom: 5px;
+}
+
+.bar-container {
+    background-color: #ecf0f1;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #3498db;
+    height: 100%;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li:before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+.formation, .experience {
+    margin-bottom: 25px;
+}
+
+.formation h4, .experience h4 {
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.formation p, .experience p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
